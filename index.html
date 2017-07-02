@@ -1,193 +1,502 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive photo gallery.">
-    <title>Photo Gallery &ndash; Layout Examples &ndash; Pure</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <!--<![endif]-->
-    
-    
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/gallery-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/layouts/gallery.css">
-        <!--<![endif]-->
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ethereal by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
 
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
+				<!-- Wrapper -->
+					<div id="wrapper">
 
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">Adventures in Scotland<br />
+									and Beyond</h1>
+									<p><strong>Hi, I'm Jenny!</strong>
+										During my junior year of university in 2017, I spent a semester studying abroad at the University of St Andrews as part of UCEAP.
+									  Here are some of my favorite photos I took during my four months in Europe.</p>
+									<ul class="actions">
+										<li><a href="#first" class="button special color1 circle icon fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/profile.jpg" alt="" />
+								</div>
+							</section>
 
+						<!-- St Andrews -->
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">St Andrews</h2>
+									<p>The birthplace of golf and home to the oldest university in Scotland.
+										These photos showcase the beauty of this small seaside town, from its brilliant yellow flowers to its tall church towers.</p>
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/st-andrews/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/st-andrews/01.jpg" alt="" /></a>
+										<a href="images/gallery/st-andrews/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/st-andrews/02.jpg" alt="" /></a>
+										<a href="images/gallery/st-andrews/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/st-andrews/03.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/st-andrews/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/st-andrews/04.jpg" alt="" /></a>
+									<div class="group span-4-5">
+										<a href="images/gallery/st-andrews/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/st-andrews/05.jpg" alt="" /></a>
+										<a href="images/gallery/st-andrews/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/st-andrews/06.jpg" alt="" /></a>
+										<a href="images/gallery/st-andrews/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/st-andrews/07.jpg" alt="" /></a>
+										<a href="images/gallery/st-andrews/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/st-andrews/08.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/st-andrews/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/st-andrews/09.jpg" alt="" /></a>
+								</div>
+							</section>
 
+							<!-- Scotland -->
+								<section class="panel">
+									<div class="intro color2">
+										<h2 class="major">Edinburgh, Glasgow, &amp; the Highlands</h2>
+										<p>3 photos each from Edinburgh (where King Arthur's seat offers a satisfying overlook of the city),
+											Glasgow (where the Gothic architecture is spectacularly intricate), and the Highlands (where I got to pet a hairy coo'!).</p>
+									</div>
+									<div class="gallery">
+										<div class="group span-3">
+											<a href="images/gallery/scotland/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/scotland/01.jpg" alt="" /></a>
+											<a href="images/gallery/scotland/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/scotland/02.jpg" alt="" /></a>
+											<a href="images/gallery/scotland/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/scotland/03.jpg" alt="" /></a>
+										</div>
+										<a href="images/gallery/scotland/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/scotland/04.jpg" alt="" /></a>
+										<div class="group span-4-5">
+											<a href="images/gallery/scotland/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/scotland/05.jpg" alt="" /></a>
+											<a href="images/gallery/scotland/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/scotland/06.jpg" alt="" /></a>
+											<a href="images/gallery/scotland/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/scotland/07.jpg" alt="" /></a>
+											<a href="images/gallery/scotland/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/scotland/08.jpg" alt="" /></a>
+										</div>
+										<a href="images/gallery/scotland/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/scotland/09.jpg" alt="" /></a>
+									</div>
+								</section>
 
+								<!-- London -->
+									<section class="panel">
+										<div class="intro color2">
+											<h2 class="major">London</h2>
+											<p>Strolling through the bustling streets of London...
+												feat. Big Ben, Somerset Palace, Prince Albert Memorial, Buckingham Palace, and Sky Garden</p>
+										</div>
+										<div class="gallery">
+											<div class="group span-3">
+												<a href="images/gallery/london/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/london/01.jpg" alt="" /></a>
+												<a href="images/gallery/london/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/london/02.jpg" alt="" /></a>
+												<a href="images/gallery/london/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/london/03.jpg" alt="" /></a>
+											</div>
+											<a href="images/gallery/london/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/london/04.jpg" alt="" /></a>
+											<div class="group span-4-5">
+												<a href="images/gallery/london/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/london/05.jpg" alt="" /></a>
+												<a href="images/gallery/london/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/london/06.jpg" alt="" /></a>
+												<a href="images/gallery/london/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/london/07.jpg" alt="" /></a>
+												<a href="images/gallery/london/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/london/08.jpg" alt="" /></a>
+											</div>
+											<a href="images/gallery/london/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/london/09.jpg" alt="" /></a>
+										</div>
+									</section>
 
-<div>
-    <div class="header">
-        <div class="pure-menu pure-menu-horizontal">
-            <a class="pure-menu-heading" href="">Photo Gallery</a>
+									<!-- Paris -->
+										<section class="panel">
+											<div class="intro color2">
+												<h2 class="major">Paris</h2>
+												<p>The birthplace of golf and home to the oldest university in Scotland.
+													These photos showcase the beauty of this small seaside town, from its brilliant yellow flowers to its tall church towers.</p>
+											</div>
+											<div class="gallery">
+												<div class="group span-3">
+													<a href="images/gallery/paris/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/paris/01.jpg" alt="" /></a>
+													<a href="images/gallery/paris/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/paris/02.jpg" alt="" /></a>
+													<a href="images/gallery/paris/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/paris/03.jpg" alt="" /></a>
+												</div>
+												<a href="images/gallery/paris/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/paris/04.jpg" alt="" /></a>
+												<div class="group span-4-5">
+													<a href="images/gallery/paris/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/paris/05.jpg" alt="" /></a>
+													<a href="images/gallery/paris/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/paris/06.jpg" alt="" /></a>
+													<a href="images/gallery/paris/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/paris/07.jpg" alt="" /></a>
+													<a href="images/gallery/paris/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/paris/08.jpg" alt="" /></a>
+												</div>
+												<a href="images/gallery/paris/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/paris/09.jpg" alt="" /></a>
+											</div>
+										</section>
 
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-            </ul>
-        </div>
-    </div>
+										<!-- Brussels & Bruges -->
+											<section class="panel">
+												<div class="intro color2">
+													<h2 class="major">Brussels &amp; Bruges</h2>
+													<p>The birthplace of golf and home to the oldest university in Scotland.
+														These photos showcase the beauty of this small seaside town, from its brilliant yellow flowers to its tall church towers.</p>
+												</div>
+												<div class="gallery">
+													<div class="group span-3">
+														<a href="images/gallery/belgium/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/belgium/01.jpg" alt="" /></a>
+														<a href="images/gallery/belgium/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/belgium/02.jpg" alt="" /></a>
+														<a href="images/gallery/belgium/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/belgium/03.jpg" alt="" /></a>
+													</div>
+													<a href="images/gallery/belgium/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/belgium/04.jpg" alt="" /></a>
+													<div class="group span-4-5">
+														<a href="images/gallery/belgium/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/belgium/05.jpg" alt="" /></a>
+														<a href="images/gallery/belgium/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/belgium/06.jpg" alt="" /></a>
+														<a href="images/gallery/belgium/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/belgium/07.jpg" alt="" /></a>
+														<a href="images/gallery/belgium/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/belgium/08.jpg" alt="" /></a>
+													</div>
+													<a href="images/gallery/belgium/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/belgium/09.jpg" alt="" /></a>
+												</div>
+											</section>
 
-    <div class="pure-g">
-        <div class="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <a href="http://www.dillonmcintosh.tumblr.com/">
-                <img src="http://24.media.tumblr.com/d6b9403c704c3e5aa1725c106e8a9430/tumblr_mvyxd9PUpZ1st5lhmo1_1280.jpg"
-                     alt="Beach">
-            </a>
+										<!-- Amsterdam -->
+											<section class="panel">
+												<div class="intro color2">
+													<h2 class="major">Amsterdam</h2>
+													<p>The birthplace of golf and home to the oldest university in Scotland.
+														These photos showcase the beauty of this small seaside town, from its brilliant yellow flowers to its tall church towers.</p>
+												</div>
+												<div class="gallery">
+													<div class="group span-3">
+														<a href="images/gallery/amsterdam/01.jpg" class="image span-3" data-position="bottom"><img src="images/gallery/amsterdam/01.jpg" alt="" /></a>
+														<a href="images/gallery/amsterdam/02.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/amsterdam/02.jpg" alt="" /></a>
+														<a href="images/gallery/amsterdam/03.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/amsterdam/03.jpg" alt="" /></a>
+													</div>
+													<a href="images/gallery/amsterdam/04.jpg" class="image span-2-5" data-position="top"><img src="images/gallery/amsterdam/04.jpg" alt="" /></a>
+													<div class="group span-4-5">
+														<a href="images/gallery/amsterdam/05.jpg" class="image span-3" data-position="top"><img src="images/gallery/amsterdam/05.jpg" alt="" /></a>
+														<a href="images/gallery/amsterdam/06.jpg" class="image span-1-5" data-position="center"><img src="images/gallery/amsterdam/06.jpg" alt="" /></a>
+														<a href="images/gallery/amsterdam/07.jpg" class="image span-1-5" data-position="bottom"><img src="images/gallery/amsterdam/07.jpg" alt="" /></a>
+														<a href="images/gallery/amsterdam/08.jpg" class="image span-3" data-position="top"><img src="images/gallery/amsterdam/08.jpg" alt="" /></a>
+													</div>
+													<a href="images/gallery/amsterdam/09.jpg" class="image span-2-5" data-position="right"><img src="images/gallery/amsterdam/09.jpg" alt="" /></a>
+												</div>
+											</section>
 
-            <aside class="photo-box-caption">
-                <span>by <a href="http://www.dillonmcintosh.tumblr.com/">Dillon McIntosh</a></span>
-            </aside>
-        </div>
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Contact</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-3-25">
+										<form method="post" action="#">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="4"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button special" /></li>
+											</ul>
+										</form>
+									</div>
+									<div class="span-1-5">
+										<ul class="contact-icons color1">
+											<li class="icon fa-twitter"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-facebook"><a href="#">facebook.com/untitled</a></li>
+											<li class="icon fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-instagram"><a href="#">@untitled-tld</a></li>
+											<li class="icon fa-medium"><a href="#">medium.com/untitled</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
 
-        <div class="text-box pure-u-1 pure-u-md-1-2 pure-u-lg-2-3">
-            <div class="l-box">
-                <h1 class="text-box-head">Photos from around the world</h1>
-                <p class="text-box-subhead">A collection of beautiful photos gathered from Unsplash.com.</p>
-            </div>
-        </div>
+						<!-- Panel -->
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Elements</h2>
+									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam. </p>
+								</div>
+								<div class="inner columns aligned">
+									<div class="span-2-75">
 
-        <div class="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <a href="https://www.flickr.com/photos/leshaines123/9199788659/in/photolist-f1XjDR-oqUsF4-eGN3fd-uLvGyn-nsUXqP-6tKPeq-h2Bwtz-6oVtec-3vzcD-nhKUBn-eGN7RY-atDkE4-6qpKgh-5qhbkM-eXSJSR-8YGjfD-eXSK7n-c3hvqo-ddvqc2-h1FgsH-4W6bip-dcnDYJ-ejny6W-bEnete-qoSUSt-nyApt1-cs1Paf-oanrNv-dmE5c9-c4Sgiq-nLYPa4-eHQbYp-fn8csk-uq4gKy-fp186j-7ZcaSx-6wMKEA-kERNCe-veHJHy-eGNaj5-4VddEM-rXUqrU-9X8YXf-87nMXX-tKCh7h-u88G4h-nHuLus-9WPUyn-8fjvkU-nKyT33">
-                <img src="https://c2.staticflickr.com/6/5515/9199788659_818383d0b8_k.jpg"
-                     alt="Meadow">
-            </a>
+										<h3 class="major">Text</h3>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="https://www.flickr.com/photos/leshaines123/9199788659/in/photolist-f1XjDR-oqUsF4-eGN3fd-uLvGyn-nsUXqP-6tKPeq-h2Bwtz-6oVtec-3vzcD-nhKUBn-eGN7RY-atDkE4-6qpKgh-5qhbkM-eXSJSR-8YGjfD-eXSK7n-c3hvqo-ddvqc2-h1FgsH-4W6bip-dcnDYJ-ejny6W-bEnete-qoSUSt-nyApt1-cs1Paf-oanrNv-dmE5c9-c4Sgiq-nLYPa4-eHQbYp-fn8csk-uq4gKy-fp186j-7ZcaSx-6wMKEA-kERNCe-veHJHy-eGNaj5-4VddEM-rXUqrU-9X8YXf-87nMXX-tKCh7h-u88G4h-nHuLus-9WPUyn-8fjvkU-nKyT33">Les Haines</a>
-                </span>
-            </aside>
-        </div>
+										<h1>Heading Level 1</h1>
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
 
-        <div class="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <a href="http://www.nilssonlee.se/">
-                <img src="http://24.media.tumblr.com/23e3f4bb271b8bdc415275fb7061f204/tumblr_mve3rvxwaP1st5lhmo1_1280.jpg"
-                     alt="City">
-            </a>
+									</div>
+									<div class="span-3">
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="http://www.nilssonlee.se/">Jonas Nilsson Lee</a>
-                </span>
-            </aside>
-        </div>
+										<h4>Blockquote</h4>
+										<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
 
-        <div class="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <a href="http://www.flickr.com/photos/rulasibai/">
-                <img src="http://24.media.tumblr.com/ac840897b5f73fa6bc43f73996f02572/tumblr_mrraat0H431st5lhmo1_1280.jpg"
-                     alt="Flowers">
-            </a>
+										<h4>Preformatted</h4>
+										<pre><code>i = 0;
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="http://www.flickr.com/photos/rulasibai/">Rula Sibai</a>
-                </span>
-            </aside>
-        </div>
+while (!deck.isInOrder()) {
+    print 'Iteration ' + (i++);
+    deck.shuffle();
+}
 
-        <div class="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <a href="http://www.flickr.com/photos/charliefoster/">
-                <img src="http://24.media.tumblr.com/e100564a3e73c9456acddb9f62f96c79/tumblr_mufs8mix841st5lhmo1_1280.jpg"
-                     alt="Bridge">
-            </a>
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="http://www.flickr.com/photos/charliefoster/">Charlie Foster</a>
-                </span>
-            </aside>
-        </div>
+									</div>
+									<div class="span-1-25">
 
-        <div class="photo-box photo-box-thin pure-u-1 pure-u-lg-2-3">
-            <a href="https://www.flickr.com/photos/82955120@N05/12024271573/in/photolist-jjxx28-f2vns5-jjw3rg-phetyV-djcGV4-7TBwup-7DxDnn-d4c1eC-aYoN8H-dBd8UG-ayQR7Z-8yhyLk-4nTgvd-dGtHuM-6WHtpP-9Dz8tA-gtnVfQ-rkCwz9-aYCE1B-hnK3Xs-axv6P4-pFPBdL-9vFwzg-afJk9N-dd3EJJ-oF1Nc2-aYoMCx-xojot-4Ypyo9-6BxaC2-6ybPn5-HSvt5-asaoZL-dd3CtM-9RJXk3-HSuZp-fe9yXi-7irigF-pgqPwH-9QQ2SU-dd3C2T-ccB6t5-fhtH3c-odGZC3-a4ppMF-ohvnyp-uiUswa-uYhWFR-6Cb4M6-5GoD9y">
-                <img src="https://c2.staticflickr.com/4/3676/12024271573_d266422362_h.jpg"
-                     alt="Balloons">
-            </a>
+										<h3 class="major">Lists</h3>
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="https://www.flickr.com/photos/82955120@N05/12024271573/in/photolist-jjxx28-f2vns5-jjw3rg-phetyV-djcGV4-7TBwup-7DxDnn-d4c1eC-aYoN8H-dBd8UG-ayQR7Z-8yhyLk-4nTgvd-dGtHuM-6WHtpP-9Dz8tA-gtnVfQ-rkCwz9-aYCE1B-hnK3Xs-axv6P4-pFPBdL-9vFwzg-afJk9N-dd3EJJ-oF1Nc2-aYoMCx-xojot-4Ypyo9-6BxaC2-6ybPn5-HSvt5-asaoZL-dd3CtM-9RJXk3-HSuZp-fe9yXi-7irigF-pgqPwH-9QQ2SU-dd3C2T-ccB6t5-fhtH3c-odGZC3-a4ppMF-ohvnyp-uiUswa-uYhWFR-6Cb4M6-5GoD9y">Nicolas Raymond</a>
-                </span>
-            </aside>
-        </div>
+										<h4>Unordered</h4>
+										<ul>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+										</ul>
 
-        <div class="photo-box photo-box-thin pure-u-1 pure-u-md-2-3">
-            <a href="http://twitter.com/iBoZR">
-                <img src="http://25.media.tumblr.com/95c842c76d60b7bc982d92c76216d037/tumblr_mx3tnm96k81st5lhmo1_1280.jpg"
-                     alt="Rain Drops">
-            </a>
+										<h4>Alternate</h4>
+										<ul class="alt">
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+										</ul>
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="http://twitter.com/iBoZR">Thanun Buranapong</a>
-                </span>
-            </aside>
-        </div>
+									</div>
+									<div class="span-1-5">
 
-        <div class="photo-box pure-u-1 pure-u-md-1-3">
-            <a href="http://www.goodfreephotos.com/">
-                <img src="http://25.media.tumblr.com/88b812f5f9c3d7b83560fd635435d538/tumblr_mx3tlblmY21st5lhmo1_1280.jpg"
-                     alt="Port">
-            </a>
+										<h4>Ordered</h4>
+										<ol>
+											<li>Lorem ipsum dolor sit.</li>
+											<li>Dolor pulvinar etiam.</li>
+											<li>Etiam vel felis viverra.</li>
+											<li>Felis enim feugiat.</li>
+											<li>Etiam vel felis lorem.</li>
+										</ol>
 
-            <aside class="photo-box-caption">
-                <span>
-                    by <a href="http://www.goodfreephotos.com/">Yinan Chen</a>
-                </span>
-            </aside>
-        </div>
+										<h4>Actions</h4>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#" class="button special color2">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
 
-        <div class="pure-u-1 form-box">
-            <div class="l-box">
-                <h2>Submit a Photo</h2>
+									</div>
+									<div class="span-1-25">
 
-                <form class="pure-form">
-                    <input type="text" placeholder="Photo URL" required>
-                    <input type="text" placeholder="Email">
-                    <button type="submit" class="pure-button">Submit</button>
-                </form>
-            </div>
-        </div>
+										<h4>Icons</h4>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
+										</ul>
 
-        <div class="pure-u-1">
-            <div class="l-box">
-                <h2>Creating a Photo Gallery Layout</h2>
+										<h4>Contact Icons</h4>
+										<ul class="contact-icons color2">
+											<li class="icon fa-twitter"><a href="#">Twitter</a></li>
+											<li class="icon fa-facebook"><a href="#">Facebook</a></li>
+											<li class="icon fa-instagram"><a href="#">Instagram</a></li>
+											<li class="icon fa-github"><a href="#">GitHub</a></li>
+											<li class="icon fa-medium"><a href="#">Medium</a></li>
+										</ul>
 
-                <p>
-                    This page shows how to make a photo gallery using <a href="">Pure Grids</a>. Using Pure, we can create interesting layouts such as this photo gallery. This layout is fully responsive. We've added a bit of custom media queries on top of the responsive grid provided by Pure.
-                </p>
+									</div>
+									<div class="span-3">
+										<h3 class="major">Table</h3>
+										<h4>Default</h4>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-3">
+										<h4>Alternate</h4>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="span-2-25">
+										<h3 class="major">Buttons</h3>
+										<ul class="actions">
+											<li><a href="#" class="button special color2">Special</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button large">Large</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button icon fa-diamond">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button special color2 disabled">Disabled</span></li>
+											<li><span class="button disabled">Disabled</span></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special color2 circle icon fa-cog">Icon</a></li>
+											<li><a href="#" class="button circle icon fa-diamond">Icon</a></li>
+										</ul>
+									</div>
+									<div class="span-4-5">
+										<h3 class="major">Form</h3>
+										<form method="post" action="#">
+											<div class="field third">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field third">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field third">
+												<label for="demo-category">Category</label>
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">-</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-low" name="demo-priority" class="color2" checked />
+												<label for="demo-priority-low">Low Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="radio" id="demo-priority-high" name="demo-priority" class="color2" />
+												<label for="demo-priority-high">High Priority</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-copy" name="demo-copy" class="color2" />
+												<label for="demo-copy">Email a copy</label>
+											</div>
+											<div class="field quarter">
+												<input type="checkbox" id="demo-human" name="demo-human" class="color2" checked />
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="2"></textarea>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="special color2" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</form>
+									</div>
+								</div>
+							</section>
 
-                <p>
-                    We've also taken advantage of <a href="">Pure Forms</a> and <a href="">Pure Menus</a>. This example uses a form with the <code>pure-form</code> class name to create an inline form. We use <a href="">Pure Buttons</a> for the button styling.
-                </p>
-            </div>
-        </div>
-    </div>
+						<!-- Copyright -->
+							<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
 
-    <div class="footer">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
-</div>
+					</div>
 
+			</div>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-</body>
+	</body>
 </html>
